@@ -1,1 +1,1 @@
-# 3.ahptopsis - Skripsi
+ahp-topsis sistem perangkingan jurnal
