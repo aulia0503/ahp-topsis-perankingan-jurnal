@@ -1,0 +1,98 @@
+/* =========================
+   SIDEBAR NAV (LEFT)
+========================= */
+
+body {
+  overflow-x: hidden;
+}
+
+/* Navbar jadi sidebar */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 230px;
+  height: 100%;
+  border-radius: 0;
+  z-index: 1000;
+}
+
+/* Hilangkan container bootstrap */
+.navbar .container {
+  width: 100%;
+  padding: 0;
+}
+
+/* Brand */
+.navbar-brand {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  padding: 15px;
+}
+
+/* Menu utama */
+.navbar-nav {
+  float: none;
+  margin: 0;
+}
+
+/* Item menu */
+.navbar-nav > li {
+  float: none;
+}
+
+/* Link menu */
+.navbar-nav > li > a {
+  padding: 12px 15px;
+}
+
+/* Dropdown */
+.navbar-nav .dropdown-menu {
+  position: relative;
+  float: none;
+  background: #2c3e50;
+  border: none;
+  box-shadow: none;
+}
+
+.navbar-nav .dropdown-menu > li > a {
+  color: #ecf0f1;
+  padding-left: 30px;
+}
+
+.navbar-nav > li > a,
+.navbar-brand {
+  color: #ecf0f1 !important;
+}
+
+.navbar-nav > li > a:hover {
+  background: #1abc9c !important;
+}
+
+/* Konten ke kanan */
+.main-content,
+.container.content {
+  margin-left: 250px;
+  padding-top: 20px;
+}
+
+/* Footer */
+.footer {
+  margin-left: 250px;
+}
+
+/* Responsive (mobile) */
+@media (max-width: 768px) {
+  .navbar {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
+  .main-content,
+  .container.content,
+  .footer {
+    margin-left: 0;
+  }
+}

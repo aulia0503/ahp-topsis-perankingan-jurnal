@@ -1,0 +1,149 @@
+/* ===============================
+   GLOBAL
+================================= */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ===============================
+   SIDEBAR
+================================= */
+.main-sidebar {
+    background-color: #343a40 !important;
+}
+
+.brand-link {
+    background-color: #2d3238;
+    color: #ffffff !important;
+    font-weight: bold;
+    text-align: center;
+}
+
+.brand-link:hover {
+    background-color: #1f2327;
+}
+
+/* Sidebar menu */
+.nav-sidebar .nav-item > .nav-link {
+    color: #c2c7d0;
+    font-size: 14px;
+    border-radius: 4px;
+    margin: 3px 6px;
+}
+
+.nav-sidebar .nav-item > .nav-link:hover {
+    background-color: #495057;
+    color: #ffffff;
+}
+
+/* Active menu */
+.nav-sidebar .nav-item > .nav-link.active {
+    background-color: #0d6efd;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+/* Icon menu */
+.nav-sidebar .nav-icon {
+    color: #adb5bd;
+}
+
+.nav-sidebar .nav-item > .nav-link.active .nav-icon {
+    color: #ffffff;
+}
+
+/* Treeview */
+.nav-treeview {
+    padding-left: 10px;
+}
+
+.nav-treeview .nav-link {
+    font-size: 13px;
+    color: #adb5bd;
+}
+
+.nav-treeview .nav-link:hover {
+    background-color: #3e444a;
+    color: #ffffff;
+}
+
+.nav-treeview .nav-link.active {
+    background-color: #0d6efd;
+    color: #ffffff;
+}
+
+/* ===============================
+   NAVBAR ATAS
+================================= */
+.main-header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.main-header .nav-link {
+    color: #495057;
+}
+
+.main-header .nav-link:hover {
+    color: #0d6efd;
+}
+
+/* ===============================
+   CONTENT
+================================= */
+.content-wrapper {
+    background-color: #f4f6f9;
+}
+
+.content-wrapper h1,
+.content-wrapper h2,
+.content-wrapper h3 {
+    font-weight: 600;
+}
+
+/* ===============================
+   CARD / PANEL
+================================= */
+.card {
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.card-header {
+    font-weight: 600;
+    background-color: #ffffff;
+}
+
+/* ===============================
+   TABLE
+================================= */
+.table thead th {
+    background-color: #0d6efd;
+    color: #ffffff;
+    text-align: center;
+}
+
+.table td, .table th {
+    vertical-align: middle;
+}
+
+/* ===============================
+   BUTTON
+================================= */
+.btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+}
+
+/* ===============================
+   FOOTER (jika pakai)
+================================= */
+.main-footer {
+    font-size: 13px;
+    background-color: #ffffff;
+}
